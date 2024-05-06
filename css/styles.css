@@ -617,6 +617,9 @@ button:focus {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form-section-text {
+  margin-bottom: 16px;
+}
 .modal-form-comment {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -644,7 +647,7 @@ button:focus {
 }
 .modal-checkbox-wrapper {
   margin-top: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 .modal-form-lable-checkbox {
   font-size: 12px;
