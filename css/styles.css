@@ -447,12 +447,17 @@ button:focus {
   margin-left: 80px;
   margin-right: 40px;
 }
-.footer-subscribe-label {
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.subscribe-txt {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-subscribe-email {
   width: 264px;
@@ -463,7 +468,6 @@ button:focus {
   background-color: #2e2f42;
   outline: transparent;
   padding-left: 32px;
-  margin-top: 16px;
 }
 .footer-subscribe-email::placeholder {
   font-size: 12px;
